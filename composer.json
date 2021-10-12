@@ -1,0 +1,10 @@
+{
+    "name": "ncut/lara_auto",
+    "description": "autoload classes",
+    "autoload": {
+        "psr-4": {
+            "Ncut\\LaraAuto\\": "src/"
+        }
+    },
+    "require": {}
+}
