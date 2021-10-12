@@ -4,6 +4,8 @@ require '../vendor/autoload.php';
 use \Demo\HelloWorld as World;
 use Demo\Hello\Lara;
 use Demo\Hello;
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
 
 $world = new World();
 $lara= new Lara();
@@ -12,9 +14,6 @@ $vincent= new Hello\Someone('Vincent');
 $mary = new \Demo\Hello\Someone('Mary');
 $john = new Demo\Hello\Someone('John');
 
-
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
 
 // create a log channel
 $log = new Logger('name');
