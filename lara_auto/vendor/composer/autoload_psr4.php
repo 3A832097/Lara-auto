@@ -11,7 +11,7 @@ return array(
     'Symfony\\Contracts\\Translation\\' => array($vendorDir . '/symfony/translation-contracts'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
-    'Ncut\\LaraAuto\\' => array($baseDir . '/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Demo\\' => array($baseDir . '/src/Demo'),
     '' => array($vendorDir . '/nesbot/carbon/src'),
 );

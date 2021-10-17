@@ -5,8 +5,8 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '2df67f6fd789b5083b6526a586b99f2b6f564f01',
-        'name' => 'ncut/lara-auto',
+        'reference' => '5078a98bdaf96d21ffe698359886be907ba563cb',
+        'name' => 'ncut/lara_auto',
         'dev' => true,
     ),
     'versions' => array(
@@ -28,13 +28,13 @@
             'reference' => 'fd4380d6fc37626e2f799f29d91195040137eba9',
             'dev_requirement' => false,
         ),
-        'ncut/lara-auto' => array(
+        'ncut/lara_auto' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '2df67f6fd789b5083b6526a586b99f2b6f564f01',
+            'reference' => '5078a98bdaf96d21ffe698359886be907ba563cb',
             'dev_requirement' => false,
         ),
         'nesbot/carbon' => array(

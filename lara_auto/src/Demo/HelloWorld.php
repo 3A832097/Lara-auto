@@ -1,10 +1,9 @@
 <?php
-	namespace Demo;
-
-    class HelloWorld
+namespace Demo;
+class HelloWorld
+{
+    function __construct()
     {
-        function __construct()
-        {
-            echo 'Hello World~~' .PHP_EOL;
-        }
+        echo 'Hello World ~'.PHP_EOL;
     }
+}

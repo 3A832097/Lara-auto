@@ -1,10 +1,9 @@
 <?php
-    namespace Demo\Hello;
-
-    class Lara
+namespace Demo\Hello;
+class Lara
+{
+    function __construct()
     {
-        function __construct()
-        {
-            echo 'Hello Lara~'.PHP_EOL;
-        }
+        echo 'Hello Lara~'.PHP_EOL;
     }
+}
